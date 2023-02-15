@@ -24,7 +24,9 @@ const getUsers = (request, response) => {
 };
 
 const addUser = (request, response, body) => {
+  console.log('adduser');
 
+  response.end();
 };
 
 module.exports = {
